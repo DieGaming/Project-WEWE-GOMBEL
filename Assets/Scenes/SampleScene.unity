@@ -1106,6 +1106,7 @@ GameObject:
   - component: {fileID: 1070588885}
   - component: {fileID: 1070588884}
   - component: {fileID: 1070588883}
+  - component: {fileID: 1070588887}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -1199,6 +1200,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1070588887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070588882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64685d46a10fdf43917dd2be56de723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1371228060
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,7 +1224,9 @@ GameObject:
   - component: {fileID: 1371228065}
   - component: {fileID: 1371228064}
   - component: {fileID: 1371228063}
+  - component: {fileID: 1371228067}
   - component: {fileID: 1371228062}
+  - component: {fileID: 1371228066}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -1326,6 +1341,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371228060}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1371228066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371228060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a6718cee3b6b64a86a8448f5cba75e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1371228067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371228060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: babb92ccd7e601c4eae82be7353feef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRange: 2
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!1 &1610906557
 GameObject:
   m_ObjectHideFlags: 0
