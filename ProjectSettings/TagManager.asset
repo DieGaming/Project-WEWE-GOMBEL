@@ -5,15 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - NoClip
+  - Item
+  - Wall
+  - Checkpoint
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcessing
   - Water
   - UI
   - NoClip
-  - 
+  - Interacted
   - 
   - 
   - 
